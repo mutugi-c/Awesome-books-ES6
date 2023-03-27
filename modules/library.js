@@ -21,8 +21,7 @@ class Library {
     table.innerHTML = '';
     table.innerHTML = this.books
       .map(
-        (book, index) =>
-          `<tr><td>'${book.title}' by ${book.author}</td><td><button data-index='${index}'>Remove</button></td></td></tr>`
+        (book, index) => `<tr><td>'${book.title}' by ${book.author}</td><td><button data-index='${index}'>Remove</button></td></td></tr>`,
       )
       .join('');
     this.setRemoveButtonListeners();

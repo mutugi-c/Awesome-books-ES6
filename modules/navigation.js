@@ -11,21 +11,21 @@ const formGroup = document.getElementById('form-group');
 const contactSection = document.getElementById('contact');
 
 const displayBooksList = () => {
-	formGroup.style.display = 'none';
-	booksList.style.display = 'block';
-	contactSection.style.display = 'none';
+  formGroup.style.display = 'none';
+  booksList.style.display = 'block';
+  contactSection.style.display = 'none';
 };
 
 const displayForm = () => {
-	formGroup.style.display = 'block';
-	booksList.style.display = 'none';
-	contactSection.style.display = 'none';
+  formGroup.style.display = 'block';
+  booksList.style.display = 'none';
+  contactSection.style.display = 'none';
 };
 
 const displayContact = () => {
-	formGroup.style.display = 'none';
-	booksList.style.display = 'none';
-	contactSection.style.display = 'block';
+  formGroup.style.display = 'none';
+  booksList.style.display = 'none';
+  contactSection.style.display = 'block';
 };
 
 bookListPage.addEventListener('click', displayBooksList);
