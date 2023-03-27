@@ -2,7 +2,7 @@ import Library from "./modules/library.js";
 import "./modules/navigation.js";
 
 const library = new Library();
-library.displayBooks;
+library.displayBooks();
 
 document.getElementById("add-book-btn").addEventListener("click", (event) => {
   event.preventDefault();
