@@ -10,27 +10,28 @@ const booksList = document.getElementById('books-list');
 const formGroup = document.getElementById('form-group');
 const contactSection = document.getElementById('contact');
 
-// Add event listeners
-bookListPage.addEventListener('click', () => {
+
+const displayBooksList = () => {
     formGroup.style.display = 'none';
     booksList.style.display = 'block';
     contactSection.style.display = 'none';
-});
+};
 
-addBookPage.addEventListener('click', () => {
+const displayForm = () => {
     formGroup.style.display = 'block';
     booksList.style.display = 'none';
     contactSection.style.display = 'none';
-});
+};
 
-contactPage.addEventListener('click', () => {
+const displayContact = () => {
     formGroup.style.display = 'none';
     booksList.style.display = 'none';
     contactSection.style.display = 'block';
-});
+};
 
-window.addEventListener('load', () => {
-    formGroup.style.display = 'none';
-    booksList.style.display = 'block';
-    contactSection.style.display = 'none';
-});
+
+bookListPage.addEventListener('click', displayBooksList);
+addBookPage.addEventListener('click', displayForm);
+contactPage.addEventListener('click', displayContact);
+
+window.addEventListener('load', displayBooksList);
