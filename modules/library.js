@@ -5,18 +5,18 @@ class Library {
     this.books = JSON.parse(localStorage.getItem("bookLibrary")) || [];
   }
 
-  addBook(title, author) {
+  addBook = (title, author) => {
     const book = new Book(title, author);
     this.books.push(book);
     localStorage.setItem("bookLibrary", JSON.stringify(this.books));
   }
 
-  removeBook(index) {
+  removeBook = (index) => {
     this.books.splice(index, 1);
     localStorage.setItem("bookLibrary", JSON.stringify(this.books));
   }
 
-  displayBooks() {
+  displayBooks = () => {
     const table = document.getElementById("books-table");
     table.innerHTML = "";
     table.innerHTML = this.books
@@ -28,7 +28,7 @@ class Library {
     this.setRemoveButtonListeners();
   }
 
-  setRemoveButtonListeners() {
+  setRemoveButtonListeners = () => {
     const removeButtons = document.querySelectorAll("#books-table button");
     removeButtons.forEach((button) => {
       const { index } = button.dataset;
