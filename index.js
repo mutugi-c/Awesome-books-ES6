@@ -1,6 +1,6 @@
-import { DateTime } from './node_modules/luxon/build/es6/luxon.js';
 import Library from './modules/library.js';
 import './modules/navigation.js';
+import { DateTime } from './node_modules/luxon/src/luxon.js';
 
 const library = new Library();
 library.displayBooks();
