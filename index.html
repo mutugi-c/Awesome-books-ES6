@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar -->
+      <nav>
+        <a href="#">Awesome books</a>
+
+        <ul class="nav__menu">
+          <li class="nav__item"><a href="#" id="book-list-page">List</a></li>
+          <li class="nav__item"><a href="#" id="add-book-page">Add new</a></li>
+          <li class="nav__item nav--contact">
+            <a href="#" id="contact-page">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Time section -->
+      <section id="time"></section>
+
+      <section id="books-list">
+        <!-- Heading -->
+        <h1 class="text-center">All awesome books</h1>
+
+        <!-- Display books -->
+        <table id="books-table"></table>
+      </section>
+
+      <!-- Add book form -->
+      <section id="form-group">
+        <h2 id="book-add">Add a new book</h2>
+
+        <form id="books-form">
+          <input type="text" id="title" placeholder="Title" required /> <br />
+          <input type="text" id="author" placeholder="Author" required /><br />
+          <button type="button" id="add-book-btn">Add</button>
+        </form>
+      </section>
+
+      <!-- Contact section -->
+      <section id="contact">
+        <h2>Contact information</h2>
+
+        <p>
+          Do you have any questions or you just want to say 'Hello'? <br />
+          You can reach out to us!
+        </p>
+        <ul>
+          <li>Our e-mail: mail@mail.com</li>
+          <li>Our phone number: 012345678</li>
+          <li>Our address: Streetname 22, 84503 City, Country</li>
+        </ul>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <span>Copyright ...</span>
+      </footer>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
