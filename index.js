@@ -18,6 +18,6 @@ document.getElementById('add-book-btn').addEventListener('click', (event) => {
 
 // Display current time
 const currentTime = document.getElementById('time');
-const date = luxon.DateTime.now();
+const date = luxon.DateTime.now();/* eslint-disable no-undef */
 const dateTime = date.toFormat('EEE d MMM yyyy h:mm:ss a');
 currentTime.innerHTML = dateTime;
