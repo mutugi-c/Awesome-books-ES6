@@ -59,7 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://mutugi-c.github.io/Awesome-books/)
+- [Live Demo Link](https://mutugi-c.github.io/Awesome-books-ES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -169,7 +169,7 @@ If you like this project, give a ⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-We would like to thank [Microverse](https://www.microverse.org/go?utm_source=google&utm_medium=paid&utm_campaign=search_europe&gclid=CjwKCAjwq-WgBhBMEiwAzKSH6IxBgyh61fi4WRuQvUsaGigJMuzzc9177uC6mhMwXeriUDendiuvChoC20wQAvD_BwE) for the opportunity to conduct pair programming on this project.
+I would like to thank [Microverse](https://www.microverse.org/go?utm_source=google&utm_medium=paid&utm_campaign=search_europe&gclid=CjwKCAjwq-WgBhBMEiwAzKSH6IxBgyh61fi4WRuQvUsaGigJMuzzc9177uC6mhMwXeriUDendiuvChoC20wQAvD_BwE) for the opportunity work on this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
