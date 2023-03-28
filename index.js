@@ -1,6 +1,5 @@
 import Library from './modules/library.js';
 import './modules/navigation.js';
-import { DateTime } from './node_modules/luxon/src/luxon.js';
 
 const library = new Library();
 library.displayBooks();
@@ -19,6 +18,6 @@ document.getElementById('add-book-btn').addEventListener('click', (event) => {
 
 // Display current time
 const currentTime = document.getElementById('time');
-const date = DateTime.now();
+const date = luxon.DateTime.now();
 const dateTime = date.toFormat('EEE d MMM yyyy h:mm:ss a');
 currentTime.innerHTML = dateTime;
