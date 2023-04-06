@@ -1,5 +1,10 @@
 <a name="readme-top"></a>
 
+<div align="left">
+  <img src="./assets/Awesome_books_img.png" alt="logo" width="600"  height="auto" />
+  <br/>
+</div>
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
