@@ -146,8 +146,6 @@ Example: To build for production with parcel, use the folowing commands:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Future features that will be added to the project include:
-
 - **An improved user interface**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
